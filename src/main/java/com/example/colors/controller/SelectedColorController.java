@@ -2,6 +2,7 @@ package com.example.colors.controller;
 
 import com.example.colors.dao.SelectedColorDao;
 import com.example.colors.model.SelectedColor;
+import com.example.colors.service.SelectedColorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -18,13 +19,13 @@ public class SelectedColorController {
     private String title;
 
     @Autowired
-    SelectedColorDao selectedColorDao;
+    SelectedColorService selectedColorService;
 
     @GetMapping({"/select", "/select/{color}"})
     public String selectedColorPage(@PathVariable(required = false) String color, Model model){
 
         if(!StringUtils.isEmpty(color)){
-            selectedColorDao.save(new SelectedColor(color, new Date()));
+            selectedColorService.save(color);
         }
 
         String[][] colors = {
