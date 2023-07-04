@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}">"</title>
+</head>
+<body>
+    <h1 th:text="${title}"></h1>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Color</th>
+            <th>Time</th>
+        </tr>
+        <tr th:each="selectedColor : ${selectedColors}">
+            <td th:text="${selectedColor.id}"></td>
+            <td th:text="${selectedColor.color}"></td>
+            <td th:text="${#dates.format(selectedColor.ctime, 'dd MM YYYY HH:mm:ss')}"></td>
+        </tr>
+    </table>
+</body>
+</html>
