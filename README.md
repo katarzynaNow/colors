@@ -12,13 +12,19 @@ The application can be used to study color preferences of anonymous users. The a
 * Chart.js
 
 ### Select view
-![selectPage](https://github.com/katarzynaNow/colors/blob/master/src/main/resources/static/selectPage.jpg)
+<p align="center">
+<img src="src/main/resources/static/selectPage.jpg" alt='selectPage' />
+</p>
 
 ### Data view
-![dataPage](https://github.com/katarzynaNow/colors/blob/master/src/main/resources/static/dataPage.jpg)
+<p align="center">
+<img src="src/main/resources/static/dataPage.jpg" alt='dataPage' />
+</p>
 
-### Statisctisc
-![statPage](https://github.com/katarzynaNow/colors/blob/master/src/main/resources/static/statPage.jpg)
+### Statisctisc view
+<p align="center">
+<img src="src/main/resources/static/statPage.jpg" alt='statPage' />
+</p>
 
 
 
