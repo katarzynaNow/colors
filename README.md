@@ -13,4 +13,14 @@ Colors uses a database to save selection results.
 * Thymeleaf
 * Chart.js
 
+### Select view
+![selectPage](https://github.com/katarzynaNow/colors/blob/master/src/main/resources/static/selectPage.jpg)
+
+### Data view
+![dataPage](https://github.com/katarzynaNow/colors/blob/master/src/main/resources/static/dataPage.jpg)
+
+### Statisctisc
+![statPage](https://github.com/katarzynaNow/colors/blob/master/src/main/resources/static/statPage.jpg)
+
+
 
